@@ -23,7 +23,7 @@ basic:
         compare_with_fresh: production
 advanced:
     mask: ''
-    remove: .vidyard-player-container
+    remove: ".vidyard-player-container\n.case-study-video"
     isolate: ''
     delay: 15
     scroll: false
