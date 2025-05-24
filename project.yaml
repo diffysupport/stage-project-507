@@ -31,7 +31,7 @@ advanced:
         - { value: '', header: '' }
     cookies: ''
     custom_js: ''
-    custom_css: "\n.vidyard-player-container {\n  \tposition: unset !important;\n}\n\n.vidyard-div-1PnWrpaADpW9hNYBY1euch {\n    position: unset !important; \n}"
+    custom_css: "\n.vidyard-div-1PnWrpaADpW9hNYBY1euch {\n    position: unset !important; \n}"
     mock_content:
         - { type: title, selector: '' }
     sensitivity: 15
