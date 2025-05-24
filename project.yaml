@@ -31,7 +31,7 @@ advanced:
         - { value: '', header: '' }
     cookies: ''
     custom_js: ''
-    custom_css: ''
+    custom_css: ".vidyard-iframe-1PnWrpaADpW9hNYBY1euch {\n\tborder: 4px solid red !important;\n}"
     mock_content:
         - { type: title, selector: '' }
     sensitivity: 15
