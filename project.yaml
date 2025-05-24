@@ -31,7 +31,7 @@ advanced:
         - { value: '', header: '' }
     cookies: ''
     custom_js: ''
-    custom_css: ".case-study-video {\n\tmargin-top: 0px !important;\n    margin-bottom: 0px !important;\n  \tpadding: 0 !important;\n     height: 300px !important\n}\n\n.vidyard-player-container {\n    display: block !important;\n  \tposition: unset !important;\n}\n\n.vidyard-div-1PnWrpaADpW9hNYBY1euch {\n    position: unset !important; \n}"
+    custom_css: ".case-study-video {\n\tmargin-top: 0px !important;\n    margin-bottom: 0px !important;\n  \tpadding: 0 !important;\n}\n\n.vidyard-player-container {\n  \tposition: unset !important;\n}\n\n.vidyard-div-1PnWrpaADpW9hNYBY1euch {\n    position: unset !important; \n}"
     mock_content:
         - { type: title, selector: '' }
     sensitivity: 15
