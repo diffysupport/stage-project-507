@@ -31,7 +31,7 @@ advanced:
         - { value: '', header: '' }
     cookies: ''
     custom_js: ''
-    custom_css: ".vidyard-player-container {\n\tposition: revert-layer !important;\n}\n\n.vidyard-div-1PnWrpaADpW9hNYBY1euch {\n\tposition: revert-layer !important;\n}"
+    custom_css: ".vidyard-player-container {\n\theight: 500px !important;\n    display: block !important;\n}\n\n.vidyard-div-1PnWrpaADpW9hNYBY1euch {\n\theight: 500px !important;\n    display: block !important;\n}"
     mock_content:
         - { type: title, selector: '' }
     sensitivity: 15
