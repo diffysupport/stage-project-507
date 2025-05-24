@@ -23,7 +23,7 @@ basic:
         compare_with_fresh: production
 advanced:
     mask: ''
-    remove: .vidyard-inner-container-1PnWrpaADpW9hNYBY1euch
+    remove: .vidyard-iframe-1PnWrpaADpW9hNYBY1euch
     isolate: ''
     delay: 15
     scroll: false
