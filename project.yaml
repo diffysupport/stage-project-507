@@ -4,6 +4,10 @@ basic:
         production: 'https://www.side.com/success-stories/how-it-should-be-done'
         staging: ''
         development: ''
+    basicAuth:
+        production: { user: '', password: '' }
+        staging: { user: '', password: '' }
+        development: { user: '', password: '' }
     breakpoints:
         - 640
         - 760
@@ -22,9 +26,8 @@ basic:
         compare_with: last-production
         compare_with_fresh: production
 advanced:
-    mask: ''
-    remove: ".vidyard-iframe-1PnWrpaADpW9hNYBY1euch\niframe"
-    isolate: ''
+    mask: ".vidyard-player-container\n"
+    remove: ''
     delay: 15
     scroll: false
     headers:
@@ -37,6 +40,7 @@ advanced:
     sensitivity: 15
     night_mode: false
     retina_images: false
+    single_ip: false
     login:
         type: none
         click_element: false
@@ -54,5 +58,3 @@ advanced:
         workers_production_delay: 0
         workers_nonproduction_delay: 0
     stabilize: true
-proxy: false
-type: single-site
