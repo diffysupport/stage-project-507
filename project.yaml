@@ -26,7 +26,7 @@ basic:
         compare_with: last-production
         compare_with_fresh: production
 advanced:
-    mask: ".vidyard-player-container\n"
+    mask: ".vidyard-player-container\n.vidyard-player-container"
     remove: ''
     delay: 15
     scroll: false
