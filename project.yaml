@@ -34,7 +34,7 @@ advanced:
         - { value: '', header: '' }
     cookies: ''
     custom_js: ''
-    custom_css: ".vidyard-iframe-1PnWrpaADpW9hNYBY1euch {\n\tborder: 4px solid red !important;\n}\n\n.vidyard-div-1PnWrpaADpW9hNYBY1euch {\n   position: unset !important;\n}\n\n.vidyard-inner-container-1PnWrpaADpW9hNYBY1euch {\n\tposition: relative !important;\n}\n"
+    custom_css: ".vidyard-iframe-1PnWrpaADpW9hNYBY1euch {\n\tborder: 4px solid red !important;\n}\n\n.vidyard-div-1PnWrpaADpW9hNYBY1euch {\n   position: unset !important;\n}\n\n.vidyard-inner-container-1PnWrpaADpW9hNYBY1euch {\n\tposition: relative !important;\n   height: 500px !important;\n}\n"
     mock_content:
         - { type: title, selector: '' }
     sensitivity: 15
