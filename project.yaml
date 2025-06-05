@@ -26,7 +26,7 @@ basic:
         compare_with: last-production
         compare_with_fresh: production
 advanced:
-    mask: ".slick-slider\n.case-study-video\n.pillar.ownership\n.vidyard_iframe"
+    mask: ".slick-slider\n.case-study-video > div\n.pillar.ownership\n.vidyard_iframe"
     remove: ''
     delay: 15
     scroll: false
