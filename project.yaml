@@ -28,7 +28,7 @@ advanced:
         - { value: '', header: '' }
     cookies: ''
     custom_js: ''
-    custom_css: ".vidyard-player-container > * {\n        display: none !important;\n      }\n\n      .vidyard-player-container {\n        position: relative !important;\n        width: 100% !important;\n      }\n      .vidyard-player-container::before {\n        content: '';\n        display: block;\n        padding-bottom: 56.25%;\n        width: 100%;\n        background: green;\n      }"
+    custom_css: ".vidyard-player-container > * {\n        display: none !important;\n      }\n\n      .vidyard-player-container {\n        position: relative !important;\n        width: 100% !important;\n      }\n      .vidyard-player-container::before {\n        content: '';\n        display: block;\n        width: 100%;\n        background: green;\n      }"
     mock_content:
         - { type: title, selector: '' }
     sensitivity: 15
