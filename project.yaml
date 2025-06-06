@@ -23,7 +23,7 @@ advanced:
     mask: ".slick-slider\n.vidyard-player-container\n.pillar.ownership\n.vidyard_iframe"
     remove: ''
     delay: 15
-    scroll: false
+    scroll: true
     headers:
         - { value: '', header: '' }
     cookies: ''
