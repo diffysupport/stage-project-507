@@ -23,7 +23,7 @@ advanced:
     mask: iframe
     remove: ''
     delay: 15
-    scroll: true
+    scroll: false
     headers:
         - { value: '', header: '' }
     cookies: ''
