@@ -28,7 +28,7 @@ advanced:
         - { value: '', header: '' }
     cookies: ''
     custom_js: ''
-    custom_css: "iframe {\n\tpadding: 0 !important;\n}"
+    custom_css: ''
     mock_content:
         - { type: title, selector: '' }
     sensitivity: 15
