@@ -20,7 +20,7 @@ basic:
         compare_with: last-production
         compare_with_fresh: production
 advanced:
-    mask: 'iframe[src*="vidyard"]'
+    mask: ".slick-slider\n.vidyard-player-container\n.pillar.ownership\n.vidyard_iframe"
     remove: ''
     delay: 15
     scroll: false
