@@ -28,7 +28,7 @@ advanced:
         - { value: '', header: '' }
     cookies: ''
     custom_js: ''
-    custom_css: ".vidyard-player-container > * {\n        display: none !important;\n      }\n\n      /* 2. Сохраняем пропорцию 16:9 при любой ширине */\n      .vidyard-player-container {\n        position: relative !important;\n        width: 100% !important;\n      }\n      .vidyard-player-container::before {\n        content: '';\n        display: block;\n      \n      }"
+    custom_css: ''
     mock_content:
         - { type: title, selector: '' }
     sensitivity: 15
