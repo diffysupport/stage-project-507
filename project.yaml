@@ -28,7 +28,7 @@ advanced:
         - { value: '', header: '' }
     cookies: ''
     custom_js: ''
-    custom_css: ".vidyard-player-container > * { display:none !important; }\n\n    /* Preserve 16:9 area with a single line */\n    .vidyard-player-container {\n      aspect-ratio: 16 / 9 !important;\n      width:100% !important;\n      background:green !important;\n    }"
+    custom_css: ''
     mock_content:
         - { type: title, selector: '' }
     sensitivity: 15
