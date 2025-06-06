@@ -28,7 +28,7 @@ advanced:
         - { value: '', header: '' }
     cookies: ''
     custom_js: ''
-    custom_css: ''
+    custom_css: "iframe[src*=\"play.vidyard.com\"],\n    .vidyard-player-container { visibility:hidden !important; }"
     mock_content:
         - { type: title, selector: '' }
     sensitivity: 15
