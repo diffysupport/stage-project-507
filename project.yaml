@@ -28,7 +28,7 @@ advanced:
         - { value: '', header: '' }
     cookies: ''
     custom_js: ''
-    custom_css: "iframe[src*=\"play.vidyard.com\"],\n    .vidyard-player-container { visibility:hidden !important; }"
+    custom_css: ".vidyard-player-container {\n        visibility: hidden !important;\n      }\n\n      /* Optional: also silence click-throughs just in case */\n      .vidyard-player-container * {\n        pointer-events: none !important;\n      }"
     mock_content:
         - { type: title, selector: '' }
     sensitivity: 15
