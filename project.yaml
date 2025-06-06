@@ -20,7 +20,7 @@ basic:
         compare_with: last-production
         compare_with_fresh: production
 advanced:
-    mask: iframe
+    mask: 'iframe[src*="vidyard"]'
     remove: ''
     delay: 15
     scroll: false
